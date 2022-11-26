@@ -9865,6 +9865,13 @@ a.text-dark:hover, a.text-dark:focus {
   list-style-type: none;
 }
 .logo__img {
+  width: 15%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.logo__footer {
+  margin-left: 40px;
   width: 60%;
   height: 100%;
   object-fit: cover;
