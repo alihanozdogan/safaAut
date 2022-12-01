@@ -4575,6 +4575,7 @@ input[type="button"].btn-block {
 .card-img-bottom {
   flex-shrink: 0;
   width: 100%;
+  height: 200px;
 }
 
 .card-img,
@@ -9865,15 +9866,25 @@ a.text-dark:hover, a.text-dark:focus {
   list-style-type: none;
 }
 .logo__img {
-  width: 15%;
+  width: 10%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 .logo__footer {
-  margin-left: 40px;
-  width: 60%;
-  height: 100%;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  width: 35%;
+  height: 90%;
   object-fit: cover;
-  object-position: center;
+  object-position: left;
+}
+
+.card-img-top-2{
+  flex-shrink: 0;
+  width: 70%;
+  height: 400px;
+}
+.card-text-2{
+  margin-top: 13px;
 }
